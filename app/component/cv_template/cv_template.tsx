@@ -14,28 +14,27 @@ export default function CvTemplate() {
     <div className="cv-template-container">
       <div className="cv-template">
         <div className="side-panel">
-          <TrafficLight />
-          <SearchBar />
-          <SideBarItem srcImage="/education_hat.png" circleColor="#DBA9EC">
-            <SideBarItemTopic text="Contact && Address" />
-            <SideBarItemSubTopic text="Thailand" />
-            <SideBarItemShortDescription text="Thai Cityzen" />
-          </SideBarItem>
-          <SideBarItem srcImage="/education_hat.png" circleColor="#EA6D2A">
-            <SideBarItemTopic text="BSc Science of Mathematic" />
-            <SideBarItemSubTopic text="Thamasat University, Thailand" />
-            <SideBarItemShortDescription text="2018-2022" />
-          </SideBarItem>
-          <SideBarItem srcImage="" circleColor="#B8C14B">
-          <SideBarItemTopic text="Work Expriences" />
-            <SideBarItemSubTopic text="Thailand" />
-            <SideBarItemShortDescription text="2018-2022" />
-          </SideBarItem>
-          <SideBarItemLink></SideBarItemLink>
-          <SideBarItemTag 
-          topic="Skils"
-          items={skills}
-          />
+          <div className="side-panel-wrapper">
+            <TrafficLight />
+            <SearchBar />
+            <SideBarItem srcImage="/education_hat.png" circleColor="#DBA9EC">
+              <SideBarItemTopic text="Contact && Address" />
+              <SideBarItemSubTopic text="Thailand" />
+              <SideBarItemShortDescription text="Thai Cityzen" />
+            </SideBarItem>
+            <SideBarItem srcImage="/education_hat.png" circleColor="#EA6D2A">
+              <SideBarItemTopic text="BSc Science of Mathematic" />
+              <SideBarItemSubTopic text="Thamasat University, Thailand" />
+              <SideBarItemShortDescription text="2018-2022" />
+            </SideBarItem>
+            <SideBarItem srcImage="" circleColor="#B8C14B">
+              <SideBarItemTopic text="Work Expriences" />
+              <SideBarItemSubTopic text="Thailand" />
+              <SideBarItemShortDescription text="2018-2022" />
+            </SideBarItem>
+            <SideBarItemLink></SideBarItemLink>
+            <SideBarItemTag topic="Skils" items={skills} />
+          </div>
         </div>
         <div className="main-panel"></div>
       </div>

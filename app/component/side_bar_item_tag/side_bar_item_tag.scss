@@ -1,3 +1,8 @@
 .side-bar-item-tag-container{
-    margin: 0 10px 0 10px;
+    margin: 0px;
+
+    .side-bar-item-tag{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
