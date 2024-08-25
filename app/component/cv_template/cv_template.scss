@@ -5,25 +5,26 @@
 }
 
 .cv-template {
-    width: 570px;
+    width: 855px;
     height: 738px;
     display: flex;
     flex-direction: row;
 
     & > * {
         height: 100%;
-        width: 50%;
     }
 
     & > .side-panel {
         background-color: rgb(#292b2b, 0.7);
         backdrop-filter: blur(80px);
         border-radius: 12px 0px 0px 12px;
+        width :30%;
     }
 
     & > .main-panel {
         background-color: #282b2b;
         border-radius: 0px 12px 12px 0px;
+        width: 70%;
     }
 
     .side-panel-wrapper {
