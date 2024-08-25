@@ -1,0 +1,24 @@
+.traffic-light {
+    // padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 10px 10px 10px;
+    .traffic-light-item {
+        width: 10px;
+        height: 10px;
+        margin: 3px;
+        border-radius: 100px;
+    }
+
+    .traffic-light-red {
+        background-color: #ec6a5e;
+    }
+
+    .traffic-light-yellow {
+        background-color: #f4bf4f;
+    }
+
+    .traffic-light-green {
+        background-color: #61c554;
+    }
+}

@@ -1,0 +1,32 @@
+.search-bar {
+    height: 26px;
+    background-color: rgb(#ffffff, 0.05);
+    border-radius: 8px;
+    margin: 0 10px 0 10px;
+    border-color: rgb(#ffffff, 0.2);
+    border-width: 1px;
+    border-style: inset;
+
+    .search-bar-item-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        height: 100%;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .search-bar-item.glass {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 5px 0 5px;
+    }
+
+    .search-bar-item.name{
+        color: rgba(#ffffff, 0.3);;
+    }
+}
