@@ -5,7 +5,8 @@
 }
 
 .cv-template {
-    width: 855px;
+    // width: 855px;
+    width: 64vw; // calculate by ratio of 855/1345 = 0.6356
     height: 738px;
     display: flex;
     flex-direction: row;

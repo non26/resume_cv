@@ -1,9 +1,10 @@
 import CvTemplate from "./component/cv_template/cv_template";
 import StatusBar from "./component/status_bar/status_bar";
+import "./globals.css";
 import "./page.scss";
 export default function Home() {
   return (
-    <main className="main-section">
+    <main className="main-section font-sfProRoundedRegular">
       <div className="cv-container">
         <div className="cv-display">
           <StatusBar></StatusBar>

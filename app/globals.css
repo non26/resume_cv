@@ -31,3 +31,10 @@
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('/fonts/SF-Pro-Rounded-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -4,6 +4,10 @@
     border-radius: 12px;
 }
 
+.side-bar-item-container:hover{
+    background-color: rgba($color: #e0dcdc, $alpha: 0.45);
+}
+
 .side-bar-item{
     display: flex;
     flex-direction: row;
