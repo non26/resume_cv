@@ -14,16 +14,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  education,
+  address,
+  workexprience,
 }: Readonly<{
   children: React.ReactNode;
+  education: React.ReactNode;
+  address: React.ReactNode;
+  workexprience: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      {/* <Image src="/bg_apple.jpg" alt="Background Image" layout="fill" objectFit="cover" /> */}
-      <Suspense fallback={<Loading/>}>{children}</Suspense>
+        {/* <Image src="/bg_apple.jpg" alt="Background Image" layout="fill" objectFit="cover" /> */}
+        <Suspense fallback={<Loading />}>{children}</Suspense>
       </body>
-
     </html>
   );
 }

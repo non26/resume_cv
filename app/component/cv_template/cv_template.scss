@@ -7,7 +7,6 @@
 .cv-template {
     // width: 855px;
     width: 64vw; // calculate by ratio of 855/1345 = 0.6356
-    height: 738px;
     display: flex;
     flex-direction: row;
 
@@ -20,6 +19,7 @@
         backdrop-filter: blur(80px);
         border-radius: 12px 0px 0px 12px;
         width :30%;
+        height: auto;
     }
 
     & > .main-panel {
@@ -31,4 +31,8 @@
     .side-panel-wrapper {
         margin: 0px 10px 0px 10px;
     }
+}
+
+.main-panel-intro{
+    position: relative;
 }

@@ -12,7 +12,7 @@ export default function SideBarItemTag(props: ISideBarItemTagProps) {
       <SideBarHeader header={props.topic}></SideBarHeader>
       <div className="side-bar-item-tag">
         {props.items.map((item, idx) => (
-          <SideBarItemTagItem item={item}></SideBarItemTagItem>
+          <SideBarItemTagItem key={idx} item={item}></SideBarItemTagItem>
         ))}
       </div>
     </div>

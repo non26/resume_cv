@@ -5,7 +5,11 @@
 }
 
 .side-bar-item-container:hover{
-    background-color: rgba($color: #e0dcdc, $alpha: 0.45);
+    background-color: rgba($color: #E7F0DC, $alpha: 0.5);
+}
+
+.side-bar-item-container.is-active{
+    background-color: rgba($color: #E7F0DC, $alpha: 0.5);
 }
 
 .side-bar-item{
